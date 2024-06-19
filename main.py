@@ -38,7 +38,7 @@ def display_weather(weather_data):
 
 def main():
     api_key = "your_api_key_here"
-    city = "London"
+    city = "Yerevan"
 
     weather_data = get_weather(api_key, city)
     display_weather(weather_data)
